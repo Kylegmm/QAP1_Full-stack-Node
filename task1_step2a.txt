@@ -1,0 +1,8 @@
+Events
+In Node.js, the events module is like a system for dealing with stuff that happens (events). Imagine you're at a party and you want to do something when a specific song plays. In Node.js, you use events to listen for that song and then do something when you hear it. You create something called an EventEmitter, and it helps you listen for things (like the song) and then react. For example, if I want my program to do something when it gets some data, I can use the events module to "listen" for the data and then "react" to it by running a function.
+
+Console
+The console module in Node.js is pretty much like the console you use in your browser’s developer tools. It's for printing out messages, which is super helpful when you're trying to figure out what your code is doing (this is called debugging). You can print simple messages with console.log(), show errors with console.error(), and even time how long things take to run with console.time() and console.timeEnd(). It’s like leaving little messages for yourself when you run your code, so you can see what’s happening or if something goes wrong.
+
+Stream
+Streams in Node.js are like little rivers of data. Imagine you have a huge amount of water (data) that you need to move. Instead of waiting for a giant tank to fill up and then moving it all at once, you use a stream (a river) to move it a bit at a time. This is super useful because it means you can start processing your data before all of it has arrived. This is great for big files or data coming from the internet because your program can work on the first part of the data while the rest is still on the way. You can have streams that you only read from, streams you only write to, or streams that do both!
